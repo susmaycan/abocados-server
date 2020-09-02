@@ -1,6 +1,6 @@
 # ABOCADOS API 🥑
 
-Retrieves a list of recipes at the endpoint <http://localhost:3001/recipe>
+CRUD API to handle recipes at the endpoint <http://localhost:3001/recipe>
 
 ## Steps to Setup
 
