@@ -1,12 +1,20 @@
 const mongoose = require('mongoose')
 
 const recipeSchema = mongoose.Schema({
-    name: String,
-    ingredients: [String],
+    name:  {
+        type: String,
+        required: true
+    },
+    ingredients: {
+        type: [String],
+        required: true
+    },
     ranking: Number,
     duration: Number,
-    difficult: Number,
-    directions: String
+    directions: {
+        type: String,
+        required: true
+    },
 }, {
     timestamps: true
 })
