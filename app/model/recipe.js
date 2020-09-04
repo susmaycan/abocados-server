@@ -5,16 +5,11 @@ const recipeSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    ingredients: {
-        type: [String],
-        required: true
-    },
+    ingredients:  [String],
     ranking: Number,
+    picture: String,
     duration: Number,
-    directions: {
-        type: String,
-        required: true
-    },
+    directions: String,
 }, {
     timestamps: true
 })
